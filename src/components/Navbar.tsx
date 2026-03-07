@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logo} alt="Vision Code Technologies" className="h-10 lg:h-12" />
+            <img src={logo} alt="Sky Rocket SEO Solutions" className="h-10 lg:h-12" />
           </Link>
 
           {/* Desktop Nav */}
@@ -40,12 +40,7 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <Link
-              to="/contact"
-              className="gradient-bg text-primary-foreground px-5 py-2.5 rounded-lg text-sm font-semibold transition-all hover:opacity-90 primary-shadow"
-            >
-              Get a Quote
-            </Link>
+
           </div>
 
           {/* Mobile Toggle */}

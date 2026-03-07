@@ -64,6 +64,47 @@ const projects: Project[] = [
     type: "Full Stack",
     color: "#0EA5E9",
   },
+  
+  {
+    title: "Gust Posting Project ",
+    desc: "This project delivers engaging, SEO-optimized content that adds value to the target audience while improving the client’s domain authority",
+    tech: ["content marketing","Guest Posting"],
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjIbxnf_Vgckei6o5RDOryb5nj_niT9dX-oA&s",
+    link: " https://www.usatoday.com/story/special/contributor-content/2025/10/23/the-future-of-aging-how-assisted-living-magazine-is-rewriting-the-retirement-narrative/86859501007/",
+    type: "Social",
+    color: "#0EA5E9",
+  },
+    {
+    title: "Gust Posting Project ",
+    desc: "This project delivers engaging, SEO-optimized content that adds value to the target audience while improving the client’s domain authority",
+   tech: ["content marketing","Guest Posting"],
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS96d3cVwzKVsMn1vQjdaUoqD9UFkkwVuwnJw&s",
+    link: " https://www.outlookindia.com/xhub/blockchain-insights/bitcoin-depots-new-market-push-aligns-with-rising-high-gain-crypto-interest-around-apeings-whitelist-floki-and-bonk",
+    type: "Social",
+    color: "#0EA5E9",
+  },
+
+    {
+    title: "Gust Posting Project ",
+    desc: "This project delivers engaging, SEO-optimized content that adds value to the target audience while improving the client’s domain authority",
+   tech: ["content marketing","Guest Posting"],
+    img: "https://media.istockphoto.com/id/1162140648/vector/isometric-flat-vector-concept-of-guest-blogging-commercial-blog-posting.jpg?s=612x612&w=0&k=20&c=ROTsG5QNyStCVAiDFsGIRUiHRw7iBkLOsGykWVjgHdI=",
+    link: "https://www.khaleejtimes.com/kt-network/salary-calculator-introduces-ai-driven-platform-for-cross-border-salary-and-tax-estimates",
+    type: "Social",
+    color: "#0EA5E9",
+  },
+
+    {
+    title: "Gust Posting Project ",
+    desc: "This project delivers engaging, SEO-optimized content that adds value to the target audience while improving the client’s domain authority",
+   tech: ["content marketing","Guest Posting"],
+    img: "https://www.shutterstock.com/image-illustration/bitcoin-digital-blocks-security-connections-600nw-2119820627.jpg",
+    link: "https://www.techtimes.com/articles/314017/20260113/dishy-unveils-swipe-choose-dining-ending-what-eat-debate.htm",
+    type: "Social",
+    color: "#0EA5E9",
+  },
+
+
   {
     title: "Fast React Pizza App",
     desc: "Built a fast and lightweight pizza ordering web app using React.js and Vite.Implemented Redux for cart and order state management.",
@@ -82,51 +123,9 @@ const projects: Project[] = [
     type: "Frontend",
     color: "#0EA5E9",
   },
-  {
-    title: "MUSIC COURSE SITE",
-    desc: "A Next.js music website with routing and Aceternity UI for discovering and enrolling in music courses.",
-    tech: ["JS", "Next.js", "Tailwind", "Aceternity UI"],
-    img: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&h=500&fit=crop&crop=center",
-    link: "https://melody-lab.vercel.app/",
-    type: "Frontend",
-    color: "#6366F1",
-  },
-  {
-    title: "WEATHER APP",
-    desc: "A React based Weather App to check real-time weather data of any country using live weather API.",
-    tech: ["JS", "React", "Tailwind", "Weather API"],
-    img: "https://t4.ftcdn.net/jpg/05/76/50/59/360_F_576505936_VLdEYvjSBYgs1EkweYeGqBPgbxHFuenC.jpg",
-    link: "https://weather-app-self-two-71.vercel.app",
-    type: "API Integration",
-    color: "#0284C7",
-  },
-  {
-    title: "CURRENCY CONVERTER",
-    desc: "Currency converter app with real-time exchange rates via currency exchange API integration.",
-    tech: ["JS", "React", "Tailwind", "Currency API"],
-    img: "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=800&h=500&fit=crop&crop=center",
-    link: "https://currency-convertor-app-five.vercel.app/",
-    type: "API Integration",
-    color: "#0369A1",
-  },
-  {
-    title: "PASSWORD GENERATOR",
-    desc: "An interactive password generator where users can craft passwords from weak to strong with custom character sets.",
-    tech: ["JS", "React", "Tailwind"],
-    img: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&h=500&fit=crop&crop=center",
-    link: "https://restraunt-le-perla.vercel.app/",
-    type: "Frontend",
-    color: "#1D4ED8",
-  },
-  {
-    title: "RESORT BOOKING SITE",
-    desc: "Interactive restaurant booking website built with Next.js featuring beautiful colors and a rich carousel experience.",
-    tech: ["JS", "React", "Tailwind", "React Carousel"],
-    img: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=500&fit=crop&crop=center",
-    link: "https://restraunt-le-perla.vercel.app/",
-    type: "Design",
-    color: "#7C3AED",
-  },
+
+
+
 ];
 
 const INITIAL_COUNT = 6;
@@ -172,7 +171,7 @@ const HeroImage = () => (
     >
       <img
         src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=800&fit=crop&crop=center"
-        alt="Vision Code Technologies Team"
+        alt="Sky Rocket SEO Solutions Team"
         className="w-full h-full object-cover"
       />
     </motion.div>

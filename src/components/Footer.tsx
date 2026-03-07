@@ -8,7 +8,7 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         
         <div>
-          <img src={logo} alt="Vision Code Technologies" className="h-10 mb-4 brightness-0 invert" />
+          <img src={logo} alt="Sky Rocket SEO Solutions" className="h-10 mb-4 brightness-0 invert" />
           <p className="text-sm opacity-80 leading-relaxed">
             Crafting innovative digital solutions with cutting-edge technology. Your vision, our code.
           </p>
@@ -62,7 +62,7 @@ const Footer = () => (
           <div className="flex flex-col gap-3 text-sm opacity-80">
             <div className="flex items-center gap-2">
               <Mail size={16} />
-              <span>umair.ashraf.codes@gmail.com</span>
+              <span>info@skyrocketseosolutions.tech</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone size={16} />
@@ -70,7 +70,7 @@ const Footer = () => (
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={16} />
-              <span>St James’s Street, London, England SW1A1HD</span>
+              <span>Lahore,Pakistan</span>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-sm opacity-60">
-        © {new Date().getFullYear()} Vision Code Technologies. All rights reserved.
+        © {new Date().getFullYear()} Sky Rocket SEO Solutions. All rights reserved.
       </div>
     </div>
   </footer>

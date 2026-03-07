@@ -65,7 +65,7 @@ const WelcomePopup = () => {
                     className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 text-primary text-xs font-semibold px-3 py-1.5 rounded-full mb-5"
                   >
                     <Sparkles size={12} />
-                    Welcome to Vision Code Technologies
+                    Welcome to Sky Rocket Solutions
                   </motion.div>
 
                   {/* Heading */}

@@ -112,7 +112,7 @@ const HeroImage = () => (
     >
       <img
         src="./services.jpg"
-        alt="Vision Code Technologies Team"
+        alt="Sky Rocket SEO Solutions Team"
         className="w-full h-full object-cover"
       />
     </motion.div>

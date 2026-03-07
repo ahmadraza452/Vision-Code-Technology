@@ -11,6 +11,11 @@ import {
   Users,
   Award,
   Zap,
+  Loader,
+PenTool,
+Search,
+Apple
+
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
@@ -57,8 +62,31 @@ const services = [
     image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80",
     desc: "Fully functional web applications that work flawlessly across all devices.",
   },
+  {
+    icon: Search,
+    title: "SEO Solutions",
+    image: "https://media.istockphoto.com/id/1597792454/photo/business-people-use-seo-tools-unlocking-online-potential-boost-visibility-attract-organic.jpg?s=612x612&w=0&k=20&c=-tv6Z5F3ykWAfFSpMd5u-9Sgoe-Uv4_OCVMWhwz38Ng=",
+    desc: "Boost your website's visibility with on-page, off-page SEO, and technical optimization strategies.",
+  },
+  {
+    icon: PenTool,
+    title: "Content Marketing",
+    image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&q=80",
+    desc: "Engaging content creation and marketing strategies to attract and retain your target audience.",
+  },
+  {
+    icon: Apple,
+    title: "Next.js Applications",
+    image: "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?w=600&q=80",
+    desc: "Fast, SEO-friendly web applications built with Next.js for server-side rendering and static generation.",
+  },
+  {
+    icon: Loader,
+    title: "React Native Mobile Apps",
+    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=80",
+    desc: "Cross-platform mobile applications for iOS and Android built with React Native for smooth performance.",
+  },
 ];
-
 const stats = [
   { value: "150+", label: "Projects Delivered" },
   { value: "50+", label: "Happy Clients" },
@@ -96,9 +124,7 @@ const Index = () => (
           transition={{ delay: 0.2 }}
           className="text-lg lg:text-sm opacity-80 mb-8 leading-relaxed max-w-2xl text-gray-300"
         >
-          From e-commerce platforms to enterprise applications, Vision Code
-          Technologies delivers end-to-end software solutions using the latest
-          technologies.
+From e-commerce platforms to enterprise applications, Skyrocket Seo Solutions delivers end-to-end digital solutions including web development, SEO, guest posting, and social media marketing using the latest technologies.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -198,7 +224,7 @@ const Index = () => (
       <div className="container mx-auto px-4 lg:px-8">
         <SectionHeading
           badge="Why Us"
-          title="Why Choose Vision Code?"
+          title="Why Choose Sky Rocket SEO Solution?"
           description="We combine technical expertise with a client-first approach to deliver exceptional results."
         />
         <div className="grid md:grid-cols-3 gap-8">

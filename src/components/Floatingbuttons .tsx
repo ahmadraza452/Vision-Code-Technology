@@ -4,7 +4,7 @@ import { ArrowUp } from "lucide-react";
 
 // ✅ Apna WhatsApp number yahan daalo (with country code, no + sign)
 const WHATSAPP_NUMBER = "923106099821";
-const WHATSAPP_MESSAGE = "Hello! I want to build my website with Vision Code Technologies.";
+const WHATSAPP_MESSAGE = "Hello! I want to build my website with Sky Rocket SEO Solutions.";
 
 const FloatingButtons = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);

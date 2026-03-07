@@ -42,7 +42,7 @@ const timeline = [
   {
     year: "2020",
     title: "Company Founded",
-    desc: "Vision Code Technologies started with a small team of passionate developers.",
+    desc: "Sky Rocket SEO Solutions started with a small team of passionate developers.",
   },
   {
     year: "2021",
@@ -85,7 +85,7 @@ const HeroImage = () => (
     >
       <img
         src="./about.jpg"
-        alt="Vision Code Technologies Team"
+        alt="Sky Rocket SEO Solutions Team"
         className="w-full h-full object-cover"
       />
     </motion.div>
@@ -123,7 +123,7 @@ const About = () => (
           transition={{ delay: 0.2 }}
           className="text-lg lg:text-sm opacity-80 mb-8 leading-relaxed max-w-2xl  text-gray-300"
         >
-          From e-commerce platforms to enterprise applications, Vision Code
+          From e-commerce platforms to enterprise applications, Sky Rocket SEO Solution
           Technologies delivers end-to-end software solutions using the latest
           technologies. We specialize in building scalable, secure, and
           high-performance systems tailored to your unique business needs. Our
@@ -153,7 +153,7 @@ const About = () => (
               Empowering Businesses Through Technology
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              At Vision Code Technologies, we believe every business deserves
+              At Sky Rocket SEO Solutions, we believe every business deserves
               access to world-class software solutions. Our mission is to bridge
               the gap between innovative ideas and technical execution.
             </p>
