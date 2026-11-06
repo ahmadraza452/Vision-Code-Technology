@@ -63,10 +63,12 @@ const Footer = () => (
             <div className="flex items-center gap-2">
               <Mail size={16} />
               <span>info@skyrocketseosolutions.tech</span>
+              <span>umair.skyrocketseosolution@gmail.com</span>
+              <span>skyrocketseosolution@gmail.com</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone size={16} />
-              <span>+966 54 617 1664</span>
+              <span>+92 310 6099821</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={16} />
