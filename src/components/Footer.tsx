@@ -62,8 +62,10 @@ const Footer = () => (
           <div className="flex flex-col gap-3 text-sm opacity-80">
             <div className="flex items-center gap-2">
               <Mail size={16} />
-              <span>info@skyrocketseosolutions.tech</span>
               <span>umair.skyrocketseosolution@gmail.com</span>
+              </br>
+              <span>info@skyrocketseosolutions.tech</span>
+              </br>
               <span>skyrocketseosolution@gmail.com</span>
             </div>
             <div className="flex items-center gap-2">
