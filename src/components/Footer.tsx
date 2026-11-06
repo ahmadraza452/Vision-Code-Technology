@@ -4,10 +4,10 @@ import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="hero-bg text-primary-foreground">
-    <div className="container mx-auto px-4 lg:px-8 py-16">
+    <div className="container mx-auto px-4 lg:px-8 py-12 sm:py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         
-        <div>
+        <div className="min-w-0">
           <img src={logo} alt="Sky Rocket SEO Solutions" className="h-10 mb-4 brightness-0 invert" />
           <p className="text-sm opacity-80 leading-relaxed">
             Crafting innovative digital solutions with cutting-edge technology. Your vision, our code.
@@ -29,7 +29,7 @@ const Footer = () => (
           </div>
         </div>
 
-        <div>
+        <div className="min-w-0">
           <h4 className="font-heading font-semibold mb-4">Quick Links</h4>
           <div className="flex flex-col gap-2">
             {["Home", "Services", "About", "Contact"].map((item) => (
@@ -44,7 +44,7 @@ const Footer = () => (
           </div>
         </div>
 
-        <div>
+        <div className="min-w-0">
           <h4 className="font-heading font-semibold mb-4">Services</h4>
           <div className="flex flex-col gap-2 text-sm opacity-80">
             <span>Search Engine Optimization</span>
@@ -57,21 +57,28 @@ const Footer = () => (
           </div>
         </div>
 
-        <div>
+        <div className="min-w-0">
           <h4 className="font-heading font-semibold mb-4">Contact Info</h4>
           <div className="flex flex-col gap-3 text-sm opacity-80">
-            <div className="flex items-center gap-2">
-              <Mail size={16} />
-              <h4>umair.skyrocketseosolution@gmail.com</h4>
-              <h4>info@skyrocketseosolutions.tech</h4>
-
-              <h4>skyrocketseosolution@gmail.com</h4>
+            <div className="flex items-start gap-2">
+              <Mail size={16} className="mt-0.5 shrink-0" />
+              <div className="flex min-w-0 flex-col gap-1">
+                <a className="break-all hover:opacity-100 transition-opacity" href="mailto:umair.skyrocketseosolution@gmail.com">
+                  umair.skyrocketseosolution@gmail.com
+                </a>
+                <a className="break-all hover:opacity-100 transition-opacity" href="mailto:info@skyrocketseosolutions.tech">
+                  info@skyrocketseosolutions.tech
+                </a>
+                <a className="break-all hover:opacity-100 transition-opacity" href="mailto:skyrocketseosolution@gmail.com">
+                  skyrocketseosolution@gmail.com
+                </a>
+              </div>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-start gap-2">
               <Phone size={16} />
               <span>+92 310 6099821</span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-start gap-2">
               <MapPin size={16} />
               <span>Lahore,Pakistan</span>
             </div>

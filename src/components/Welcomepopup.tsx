@@ -69,7 +69,7 @@ const WelcomePopup = () => {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.85, y: 40 }}
             transition={{ type: "spring", damping: 20, stiffness: 300 }}
-            className="fixed inset-0 z-50 flex items-center justify-center px-4 pointer-events-none"
+            className="fixed inset-0 z-50 flex items-center justify-center px-4 py-4 sm:px-6 sm:py-6 pointer-events-none"
           >
             <div className="pointer-events-auto w-full max-w-lg relative">
 
@@ -77,7 +77,12 @@ const WelcomePopup = () => {
               <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-primary via-accent to-primary opacity-30 blur-xl animate-pulse" />
 
               {/* Card */}
-              <div className="relative bg-card border border-border rounded-2xl overflow-hidden shadow-2xl">
+              <div
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="welcome-popup-title"
+                className="relative flex max-h-[calc(100dvh-2rem)] flex-col rounded-2xl border border-border bg-card shadow-2xl"
+              >
 
                 {/* Gradient Bar */}
                 <div className="gradient-bg h-1.5 w-full" />
@@ -86,13 +91,13 @@ const WelcomePopup = () => {
                 <button
                   onClick={handleClose}
                   aria-label="Close popup"
-                  className="absolute top-4 right-4 w-8 h-8 rounded-full bg-secondary hover:bg-border flex items-center justify-center transition-colors text-muted-foreground hover:text-foreground"
+                  className="absolute right-4 top-4 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-secondary text-muted-foreground transition-colors hover:bg-border hover:text-foreground"
                 >
                   <X size={16} />
                 </button>
 
                 {/* Content */}
-                <div className="p-6 sm:p-8">
+                <div className="min-h-0 overflow-y-auto overscroll-contain p-5 sm:p-8">
 
                   {/* Badge */}
                   <motion.div
@@ -107,6 +112,7 @@ const WelcomePopup = () => {
 
                   {/* Heading */}
                   <motion.h2
+                    id="welcome-popup-title"
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.25 }}
