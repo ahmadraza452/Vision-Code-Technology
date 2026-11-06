@@ -4,7 +4,7 @@ import { ArrowUp } from "lucide-react";
 
 // ✅ Apna WhatsApp number yahan daalo (with country code, no + sign)
 const WHATSAPP_NUMBER = "923106099821";
-const WHATSAPP_MESSAGE = "Hello! I want to build my website with Sky Rocket SEO Solutions.";
+const WHATSAPP_MESSAGE = "Hi! I'm interested in your SEO, Link Building, Guest Posting, and Web Development services. I'd love to discuss how Sky Rocket SEO Solutions can help grow my business.";
 
 const FloatingButtons = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);

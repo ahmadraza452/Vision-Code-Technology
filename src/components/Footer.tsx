@@ -62,11 +62,10 @@ const Footer = () => (
           <div className="flex flex-col gap-3 text-sm opacity-80">
             <div className="flex items-center gap-2">
               <Mail size={16} />
-              <span>umair.skyrocketseosolution@gmail.com</span>
-              </br>
-              <span>info@skyrocketseosolutions.tech</span>
-              </br>
-              <span>skyrocketseosolution@gmail.com</span>
+              <h4>umair.skyrocketseosolution@gmail.com</h4>
+              <h4>info@skyrocketseosolutions.tech</h4>
+
+              <h4>skyrocketseosolution@gmail.com</h4>
             </div>
             <div className="flex items-center gap-2">
               <Phone size={16} />
