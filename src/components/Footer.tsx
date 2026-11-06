@@ -63,15 +63,13 @@ const Footer = () => (
             <div className="flex items-start gap-2">
               <Mail size={16} className="mt-0.5 shrink-0" />
               <div className="flex min-w-0 flex-col gap-1">
-                <a className="break-all hover:opacity-100 transition-opacity" href="mailto:umair.skyrocketseosolution@gmail.com">
-                  umair.skyrocketseosolution@gmail.com
-                </a>
-                <a className="break-all hover:opacity-100 transition-opacity" href="mailto:info@skyrocketseosolutions.tech">
-                  info@skyrocketseosolutions.tech
-                </a>
-                <a className="break-all hover:opacity-100 transition-opacity" href="mailto:skyrocketseosolution@gmail.com">
+                 <a className="break-all hover:opacity-100 transition-opacity" href="mailto:skyrocketseosolution@gmail.com">
                   skyrocketseosolution@gmail.com
                 </a>
+                <a className="break-all hover:opacity-100 transition-opacity" href="mailto:umair.skyrocketseosolution@gmail.com">
+                  umair.skyrocketseosolutions@gmail.com
+                </a>
+               
               </div>
             </div>
             <div className="flex items-start gap-2">
